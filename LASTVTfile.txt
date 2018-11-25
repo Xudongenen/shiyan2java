@@ -1,0 +1,6 @@
+ LASTVT¼¯£º
+ LASTVT(E')={#}
+ LASTVT(E)={+,*,),i}
+ LASTVT(T)={*,),i}
+ LASTVT(F)={),i}
+

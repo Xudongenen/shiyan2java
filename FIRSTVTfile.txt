@@ -1,0 +1,6 @@
+ FIRSTVT¼¯£º
+ LASTVT(E')={#}
+ FIRSTVT(E)={+,*,(,i}
+ FIRSTVT(T)={*,(,i}
+ FIRSTVT(F)={(,i}
+ 

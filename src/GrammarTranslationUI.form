@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GrammarTranslationUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="21" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="64" y="53" width="823" height="564"/>
+    </constraints>
+    <properties>
+      <background color="-3881788"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f7b1d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="词法分析的结果为："/>
+        </properties>
+      </component>
+      <scrollpane id="da55">
+        <constraints>
+          <grid row="11" column="0" row-span="3" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5eba1" class="javax.swing.JTextArea" binding="textArea3" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="24b79">
+        <constraints>
+          <grid row="7" column="4" row-span="14" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="268db" class="javax.swing.JTextArea" binding="textArea6" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="ef3d1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="语法分析过程："/>
+        </properties>
+      </component>
+      <scrollpane id="99063">
+        <constraints>
+          <grid row="2" column="10" row-span="11" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="41069" class="javax.swing.JTextArea" binding="textArea7" default-binding="true">
+            <constraints/>
+            <properties>
+              <font name="YouYuan" size="20" style="1"/>
+              <lineWrap value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="6fd42" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="算符优先矩阵为："/>
+        </properties>
+      </component>
+      <component id="d8ea1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FIRSTVT集为："/>
+        </properties>
+      </component>
+      <scrollpane id="729b8">
+        <constraints>
+          <grid row="2" column="4" row-span="4" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="27742" class="javax.swing.JTextArea" binding="textArea4" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="420a8">
+        <constraints>
+          <grid row="5" column="0" row-span="3" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d7f0c" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="2812a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="请输入文法："/>
+        </properties>
+      </component>
+      <component id="53487" class="javax.swing.JButton" binding="选择文法文件Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="选择文法文件"/>
+        </properties>
+      </component>
+      <scrollpane id="876b6">
+        <constraints>
+          <grid row="15" column="0" row-span="6" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="1f7ff" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="状态转换图"/>
+        </properties>
+      </component>
+      <scrollpane id="ffa61">
+        <constraints>
+          <grid row="15" column="10" row-span="5" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="bf93" class="javax.swing.JTextArea" binding="textArea8" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="ef1c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="语法指导翻译四元式的生成："/>
+        </properties>
+      </component>
+      <component id="8a3b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="LASTVT集为："/>
+        </properties>
+      </component>
+      <scrollpane id="319da">
+        <constraints>
+          <grid row="2" column="6" row-span="4" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="761c6" class="javax.swing.JTextArea" binding="textArea5" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="5f6c2" class="javax.swing.JButton" binding="选择程序文件Button" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="选择程序文件"/>
+        </properties>
+      </component>
+      <component id="b9a73" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="请输入要分析的句子："/>
+        </properties>
+      </component>
+      <scrollpane id="7abb4">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="76135" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties>
+              <font size="20" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="f407a" class="javax.swing.JButton" binding="开始词法分析Button" default-binding="true">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="开始词法分析"/>
+        </properties>
+      </component>
+      <component id="7d19c" class="javax.swing.JButton" binding="开始分析Button" default-binding="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="开始语法分析"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
