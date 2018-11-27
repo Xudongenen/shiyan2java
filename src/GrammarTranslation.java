@@ -1,8 +1,6 @@
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
-import java.util.*;
 
 public class GrammarTranslation {
 
@@ -62,13 +60,12 @@ public class GrammarTranslation {
     /**
      * 主程序
      */
-    static File AnalysisProcess =new File("D:\\作业\\编译原理\\shiyan2java\\AnalysisProcess.txt");
-    static File fouryuanStyle =new File("D:\\作业\\编译原理\\shiyan2java\\fouryuanStyle.txt");
+    private static File AnalysisProcess =new File("D:\\作业\\编译原理\\shiyan2java\\AnalysisProcess.txt");
+    private static File fouryuanStyle =new File("D:\\作业\\编译原理\\shiyan2java\\fouryuanStyle.txt");
     public static void main(String[] args) {
         GrammaticalAnalysis.writerFile(AnalysisProcess,"",false);
         GrammaticalAnalysis.writerFile(fouryuanStyle,"",false);
         System.out.print("请输入字符串：");
-        Scanner s = new Scanner(System.in);
         File sentence=new File("D:\\作业\\编译原理\\shiyan2java\\sentence.txt");
         String resourceCode = readerFile(sentence);
         buffer.append(resourceCode);
@@ -134,12 +131,12 @@ public class GrammarTranslation {
         return false;
     }
 
-    public static String readerFile(File file) {
+    private static String readerFile(File file) {
         try {
-            BufferedReader Breader = null;
+            BufferedReader Breader;
             Breader = new BufferedReader(new FileReader(file));
-            String fp = null;
-            while ((fp=Breader.readLine()) != null) {//按行读取文件
+            String fp;
+            while (null != (fp = Breader.readLine())) {//按行读取文件
                 //fp=Breader.readLine()+"\r\n";
                 return fp;
             }

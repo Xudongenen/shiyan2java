@@ -2,19 +2,11 @@ package firstvt;
 import java.util.ArrayList;
 
 public class firstvt {
-    private static String[] EFT={"E->T+F|T","T->T*F|F","F->(E)|i"};
+  private static String[] EFT={"E->T+F|T","T->T*F|F","F->(E)|i"};
   private static char NT[]={'E','T','F'};
   private static ArrayList fi=new ArrayList();
 
     private static void getfirst(String NT1){
-//      switch (NT1){
-//          case "E":
-//              NT1=E;break;
-//          case "T":
-//              NT1=T;break;
-//          case "F":
-//              NT1=F;
-//      }
       for (int i=0;i<NT.length;i++)
       {
           if (NT[i]==NT1.charAt(0))

@@ -2,9 +2,9 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 public class GrammaticalAnalysis {
-    static File FIRSTVTfile = new File("D:\\作业\\编译原理\\shiyan2java\\FIRSTVTfile.txt");
-    static File LASTVTfile = new File("D:\\作业\\编译原理\\shiyan2java\\LASTVTfile.txt");
-    static File operatorPrecedenceTable = new File("D:\\作业\\编译原理\\shiyan2java\\operatorPrecedenceTable.txt");
+    private static File FIRSTVTfile = new File("D:\\作业\\编译原理\\shiyan2java\\FIRSTVTfile.txt");
+    private static File LASTVTfile = new File("D:\\作业\\编译原理\\shiyan2java\\LASTVTfile.txt");
+    private static File operatorPrecedenceTable = new File("D:\\作业\\编译原理\\shiyan2java\\operatorPrecedenceTable.txt");
     public static void main(String[] args) throws IOException {
         writerFile(FIRSTVTfile,"",false);
         writerFile(LASTVTfile,"",false);
@@ -133,7 +133,7 @@ public class GrammaticalAnalysis {
         if (!fl.isOP) System.out.print("此文发非算符优先文法");
   }
 
-    protected static void writerFile(File file, String s,boolean tag) {
+    static void writerFile(File file, String s, boolean tag) {
         try {
             if (!file.exists()) {
                 file.createNewFile();
@@ -213,7 +213,7 @@ class GetFL {
         if(str4.contains("|")){
             s=str4.split("\\|");
             for (String value : s) {
-                getFVT(str3, value);
+                 getFVT(str3, value);
             }
         }
         else{

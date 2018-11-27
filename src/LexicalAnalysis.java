@@ -267,6 +267,7 @@ public class LexicalAnalysis {
                         case '#':
                             out(end,t);
                             i++;
+                            break;
                         case '/':
                             out(DI, t);
                             i++;
